@@ -18,11 +18,16 @@ AltoroJ has been developed using Eclipse and designed to run on Tomcat 7, but si
 
 - Eclipse 4.6 or newer recommended (requires Java 8)
 - Tomcat 7.x
-- Gradle 3.0 to build from command line
-- Gradle's Buildship Eclipse plug-in to automatically download required 3rd party libraries and run AltoroJ inside Eclipse
--- Easiest way to install Buildship is from Eclipse Marketplace (inside Eclipse, go to Help -> Eclipse Marketplace)
+- Maven 6.x or higher
 
 [Read more about importing AltoroJ into Eclipse from GitHub here](https://github.com/AppSecDev/AltoroJ/blob/master/Importing%20AltoroJ%20into%20Eclipse%20from%20GitHub.md)
+
+# Build .war package
+To build a .war package using maven, run the following command:
+
+`mvn package`
+
+navigate to the folder `target` and locate the .war file
 
 # AltoroJ credentials
 Main usernames and passwords for AltoroJ are as follows:
