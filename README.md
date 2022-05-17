@@ -18,7 +18,7 @@ AltoroJ has been developed using Eclipse and designed to run on Tomcat 7, but si
 
 - Eclipse 4.6 or newer recommended (requires Java 8)
 - Tomcat 7.x
-- Maven 6.x or higher
+- Maven 3.x or higher
 
 [Read more about importing AltoroJ into Eclipse from GitHub here](https://github.com/AppSecDev/AltoroJ/blob/master/Importing%20AltoroJ%20into%20Eclipse%20from%20GitHub.md)
 
